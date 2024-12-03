@@ -1,0 +1,59 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://20cd3fbb-9c70-47ae-aba0-89f81fec8222",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "CUL Kk.3.21.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://38a17598-0cc2-4a9d-adf3-1acb769ec45a",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://8848135d-f568-414d-a49f-2c21278f5c58",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3504,
+					"width": 4960,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f28aeb29-8390-4f55-b9c1-95a38bc7c11a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://david-dawson6401a.github.io/Demo/images/001/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://david-dawson6401a.github.io/Demo/images/001",
+									"profile": "http://iiif.io/api/image/2/level0.json"
+								},
+								"height": 3504,
+								"width": 4960
+							},
+							"on": "http://8848135d-f568-414d-a49f-2c21278f5c58"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
