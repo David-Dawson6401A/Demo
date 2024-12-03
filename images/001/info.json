@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 155,
+    "height" : 110
+  }, {
+    "width" : 310,
+    "height" : 219
+  }, {
+    "width" : 620,
+    "height" : 438
+  }, {
+    "width" : 1240,
+    "height" : 876
+  }, {
+    "width" : 2480,
+    "height" : 1752
+  }, {
+    "width" : 4960,
+    "height" : 3504
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 4960,
+  "@id" : "https://David-Dawson6401A.github.io/Demo/images/001",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3504
+}

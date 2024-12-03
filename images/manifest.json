@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://David-Dawson6401A.github.io/Demo/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in David-Dawson6401A/Demo project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://David-Dawson6401A.github.io/Demo/images/001/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "001"
+                ]
+            },
+            "height": 3504,
+            "width": 4960,
+            "items": [
+                {
+                    "id": "https://David-Dawson6401A.github.io/Demo/images/001/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://David-Dawson6401A.github.io/Demo/images/001/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://David-Dawson6401A.github.io/Demo/images/001/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 155,
+                                                "height": 110
+                                            },
+                                            {
+                                                "width": 310,
+                                                "height": 219
+                                            },
+                                            {
+                                                "width": 620,
+                                                "height": 438
+                                            },
+                                            {
+                                                "width": 1240,
+                                                "height": 876
+                                            },
+                                            {
+                                                "width": 2480,
+                                                "height": 1752
+                                            },
+                                            {
+                                                "width": 4960,
+                                                "height": 3504
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 4960,
+                                        "@id": "https://David-Dawson6401A.github.io/Demo/images/001",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3504,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://David-Dawson6401A.github.io/Demo/images/001/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
